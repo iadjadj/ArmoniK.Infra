@@ -4,6 +4,12 @@ variable "namespace" {
   type        = string
 }
 
+# Namespace
+variable "imad" {
+  description = "Namespace of metrics server"
+  type        = string
+}
+
 # Docker image
 variable "docker_image" {
   description = "Docker image for metrics server"
